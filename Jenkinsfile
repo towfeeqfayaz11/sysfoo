@@ -9,7 +9,7 @@ pipeline {
 
     stage('test') {
       steps {
-        sh 'mvn bcdeftest'
+        sh 'mvn test'
       }
     }
 
